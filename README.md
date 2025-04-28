@@ -19,6 +19,7 @@ All implementation, preprocessing, training, and evaluation are contained in **a
 The repository is organized as follows:
 - ├── TMod_UNET.ipynb # Main Jupyter notebook containing preprocessing, training, and evaluation
 - ├── /logs/ # Directory to store training logs and performance metrics
+- ├── /media/ # A library which contains the videos and the photos
 - └── README.md # Project documentation and usage instructions (this file)
 
 > ✅ **Note:**  
