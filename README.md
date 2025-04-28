@@ -1,4 +1,4 @@
-# 🧠 Glioma Segmentation Using Multi-Modal MRI Configurations
+# 🧠 Evaluating the Effect of Multimodal MRI Channels on Automated 3D Glioma Segmentation using 3D U-Net
 
 > A deep learning-based investigation on the effect of different MRI modality combinations for glioma brain tumor segmentation using a 3D U-Net architecture.
 
@@ -27,4 +27,15 @@ OR
 - Kaggle (Larxel repository):  
 ```bash
 !kaggle datasets download andrewmvd/brain-tumor-segmentation-in-mri-brats-2015
+```
+#### 🟢 Steps to Obtain Kaggle API Token:
+1. Create a Kaggle account at [https://www.kaggle.com/](https://www.kaggle.com/).
+2. Go to **Account Settings** → **API** → Click **"Create New API Token"**.
+3. A file named `kaggle.json` will be downloaded.
+4. Upload the `kaggle.json` file to your environment (Google Colab / local machine).
+
+> ✅ Example (for Google Colab):
+```python
+from google.colab import files
+files.upload()  # Upload kaggle.json
 
