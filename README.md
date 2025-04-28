@@ -14,6 +14,17 @@ The core idea is to **assess whether more input modalities lead to better segmen
 All implementation, preprocessing, training, and evaluation are contained in **a single Jupyter notebook** for simplicity and reproducibility.
 
 ---
+## 📁 Repository Structure
+
+The repository is organized as follows:
+- ├── TMod_UNET.ipynb # Main Jupyter notebook containing preprocessing, training, and evaluation
+- ├── /logs/ # Directory to store training logs and performance metrics
+- └── README.md # Project documentation and usage instructions (this file)
+
+> ✅ **Note:**  
+> - All experiment variants (Di-modal, Tri-modal, Quad-modal) are handled inside `TMod_UNET.ipynb`.  
+> - Trained models and logs are automatically saved into their respective folders after each training session.
+---
 
 ## 🗂️ Dataset Access
 
@@ -38,4 +49,7 @@ OR
 ```python
 from google.colab import files
 files.upload()  # Upload kaggle.json
+```
+
+
 
