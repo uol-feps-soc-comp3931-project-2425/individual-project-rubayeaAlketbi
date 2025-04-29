@@ -2,7 +2,6 @@
 
 > A deep learning-based investigation on the effect of different MRI modality combinations for glioma brain tumor segmentation using a 3D U-Net architecture.
 
-![montage](media/montage.png)
 
 ## 📌 Project Overview
 
@@ -57,6 +56,9 @@ files.upload()  # Upload kaggle.json
 ## 🔗 Notebook Access
 
 Due to GitHub file size restrictions, the notebook is hosted externally:
+
+
+![montage](media/montage.png)
 
 [Download/View the Notebook (Google Drive)](https://drive.google.com/drive/folders/1quu60iwUaEvBv8AnqJr00c0OvEIRgbh6?usp=drive_link)
 
