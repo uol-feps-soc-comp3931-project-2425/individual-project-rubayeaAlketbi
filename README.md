@@ -2,6 +2,8 @@
 
 > A deep learning-based investigation on the effect of different MRI modality combinations for glioma brain tumor segmentation using a 3D U-Net architecture.
 
+![montage](media/montage.png)
+
 ## 📌 Project Overview
 
 This project focuses on **brain tumor segmentation** using the **BRaTS 2020 dataset**, employing various MRI modality configurations to evaluate their effectiveness:
