@@ -52,5 +52,11 @@ from google.colab import files
 files.upload()  # Upload kaggle.json
 ```
 
+## 🔗 Notebook Access
+
+Due to GitHub file size restrictions, the notebook is hosted externally:
+
+[Download/View the Notebook (Google Drive)](https://drive.google.com/drive/folders/1quu60iwUaEvBv8AnqJr00c0OvEIRgbh6?usp=drive_link)
+
 
 
